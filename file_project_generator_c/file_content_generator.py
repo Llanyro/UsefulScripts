@@ -28,4 +28,4 @@ def generate_full(struct_name: str, alias: str, folders: list) -> str:
            f"{generate_source(struct_name, alias, folders)}"
 
 
-print(generate_full("CriticalInteger", "CriticalInteger", ["anticheat", "core"]))
+#print(generate_full("CriticalInteger", "CriticalInteger", ["anticheat", "core"]))
