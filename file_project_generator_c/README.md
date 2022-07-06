@@ -11,9 +11,10 @@ Struct: ll_struct_name <br/>
 Alias: AliasStruct <br/>
 Path: ./anticheat/core <br/>
 
-*** Remember to include the alias like this: ***
-``` typedef struct ll_struct_name AliasStruct;  ```
+*** Remember to include the alias like this: *** <br/>
+``` typedef struct ll_struct_name AliasStruct;  ``` <br/>
 
+## Code example
 ```python3
 from file_content_generator import generate_full
 
