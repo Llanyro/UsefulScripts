@@ -12,6 +12,10 @@ Alias: AliasStruct
 Path: ./anticheat/core
 
 ```python3
+from file_content_generator import generate_full
+
 content: str = generate_full("ll_struct_name", "AliasStruct", ["anticheat", "core"])
 print(content)
 ```
+
+# How to modify the file "header.h" and "source.c"
