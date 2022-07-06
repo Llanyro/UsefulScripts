@@ -26,6 +26,6 @@ Open it with any editor, remember that you can't modify any {?} character, becau
 You can change, add, or remove the includes in both files
 
 Remember this:
-{0} is for the name__
-{1} is fot he alias__
-{2} is for the struct name as var__
+{0} is for the name <br/>
+{1} is fot he alias <br/>
+{2} is for the struct name as var <br/>
