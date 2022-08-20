@@ -27,7 +27,7 @@ if sys.argv.__len__() > 1:
         file_name = sys.argv[2]
 
     # Fiind all files *.c files
-    for a_file in Path(root_folder).glob('**/*.c'):
+    for a_file in Path(root_folder).glob('**/*.c*'):
         # If file is not a cpp
         if not has_banned_extension(str(a_file)):
             # If the file is in banned folder
